@@ -1,5 +1,3 @@
-print("hello")
-first_name= "samip"
-email= "mairo@gmail.com"
-print(f"{first_name}")
+print("hello Samip Shrestha")
+email= "fake@gmail.com"
 print(f"your email is: {email}")
