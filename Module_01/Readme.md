@@ -4,6 +4,6 @@
 # 01_python
 it greets be by name
 
-# 02-python
+# 21aug
 
- 
+** tells my name and fake email **
