@@ -1,4 +1,4 @@
-# Python_Excercise
+# Python_Exercises 
 
 ** Samip Shrestha **
 
@@ -8,5 +8,8 @@
 # module_2:
 ** program_01: asks for name **
 
-#module_3:
-**  **
+# module_3:
+** variables and interactive programs - exercises completed **
+
+# module_4:
+** Conditional structures (if,elif,else) - exercises completed **
