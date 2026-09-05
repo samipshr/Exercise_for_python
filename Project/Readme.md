@@ -7,6 +7,6 @@ creator: Samip Shrestha **
 
 ** Asks user for name and age **
 
-# Project_01: made a menu with commands and an option to quit game
+# Project_02: made a menu with commands and an option to quit game
 
 ** gives responses to certain commands and if entered 'lopeta' it shuts down the game **
