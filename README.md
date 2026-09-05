@@ -13,3 +13,9 @@
 
 # module_4:
 ** Conditional structures (if,elif,else) - exercises completed **
+
+# module_5:
+** While loops (while) - exercises completed **
+
+# module_6:
+** List structures and iterative loops (for) - exercises completed **
