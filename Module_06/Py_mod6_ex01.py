@@ -7,6 +7,6 @@ dice = int(input("How many dice would you like to roll: "))
 total = 0
 
 for i in range(dice):
-    roll = int(random.uniform(1, 6))
+    roll = int(random.randint(1, 6))
     total = total + roll
 print(f"sum of the numbers:{total}")
