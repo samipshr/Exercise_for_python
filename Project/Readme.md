@@ -10,3 +10,7 @@ creator: Samip Shrestha **
 # Project_02: made a menu with commands and an option to quit game
 
 ** gives responses to certain commands and if entered 'lopeta' it shuts down the game **
+
+# Project_03: made main Menu Functions and “Inventory”
+
+** can add items to inventory **
