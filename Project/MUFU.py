@@ -53,9 +53,10 @@ else:
         for item in bucket_list:
             print(f"- {item}")
 
-        print(f"{name}- 'God did i really write this? it sounds so cringe... '")
+        print(f"{name}- 'Ughh did i really write this? it sounds so cringe... '")
         print(f"{name}-...")
-        print(f"{name}- 'well at least i did do one of these three yesterday.'")
+        print(f"you say that, yet there's joyous smile on your face")
+        print(f"{name}- 'well at least i did do one out of these three yesterday.'")
 
 
     while True:
