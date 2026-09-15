@@ -17,7 +17,7 @@ else:
     inventory = ["1€", "phone case"]
 
     bucket_list = [
-        "party all night",
+        "Enjoy the Trip",
         "catch your first fish",
         "Have Fun (very important!)"
     ]
