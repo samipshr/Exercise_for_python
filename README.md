@@ -19,3 +19,9 @@
 
 # module_6:
 ** List structures and iterative loops (for) - exercises completed **
+
+# module_7:
+** Functions - exercises completed **
+
+# module_8:
+** Tuple, set, and dictionary - exercises completed **
