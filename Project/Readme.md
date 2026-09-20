@@ -14,3 +14,7 @@ creator: Samip Shrestha **
 # Project_03: made main Menu Functions and “Inventory”
 
 ** can add items to inventory **
+
+# Project 4 : Organize the Structure and Introduce Objects
+
+** introduced objects (program) and new locations (game) **
