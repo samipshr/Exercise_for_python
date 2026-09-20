@@ -1,5 +1,5 @@
 #Game
-#project-01 : program that asks for the player’s name and age, stores them in variables, and prints them to the console.
+#project-04: Organize the Structure and Introduce Objects
 
 from player import Player
 from room import Room
