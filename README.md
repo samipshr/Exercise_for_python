@@ -25,3 +25,9 @@
 
 # module_8:
 ** Tuple, set, and dictionary - exercises completed **
+
+# module_9:
+** Fundamentals of object-oriented programming - exercises completed **
+
+# module_10:
+** Association - exercises completed **
