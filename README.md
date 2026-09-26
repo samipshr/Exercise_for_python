@@ -31,3 +31,6 @@
 
 # module_10:
 ** Association - exercises completed **
+
+# module_11:
+** Inheritance - exercise completed **
