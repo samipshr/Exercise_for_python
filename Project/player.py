@@ -27,6 +27,6 @@ class Player:
             if item.name.lower() == item_name.lower():
              print(f"\n{item.name}")
              print(f"Description: {item.description}")
-             print(f"Weight: {item.weight} kg")
              return
-    print("You don't have that item.")
+        print("\n")
+        print("You don't have that item.")

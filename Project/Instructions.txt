@@ -1,8 +1,9 @@
-              __MUFU__ 
+                    __MUFU__ 
 
-          --INSTRUCTIONS--
+                --INSTRUCTIONS--
 
-_MAIN COMMANDS FOR GAME_
+
+            _MAIN COMMANDS FOR GAME_
 
 look - Look around your current location.
 
@@ -20,14 +21,15 @@ pray - Pray to IT when you are ready to finish the game.
 
 lopeta - Quit the game.
 
---OBSERVATION--
+
+                --OBSERVATION--
  when you type the command -look- it will give you the information about your surroundings
  and also inform you of any items that you can collect using command -collect-.
  There is a location where you will need another item to advance through the game,
  you will get a clue about it if you -look- around.
 
 
---MOVEMENT--
+                 --MOVEMENT--
  You will start off inside the cabin.
  When you are outside the cabin, you can choose a direction: 
  - north
@@ -45,12 +47,12 @@ lopeta - Quit the game.
    which beings the player to the outside.
 
 
---INVENTORY--
+                 --INVENTORY--
  
  Collected items are stored in your bag. Some items may be useful to advance
     in the game, so think carefully before giving an item to 'IT'.
 
---SAVING--
+                  --SAVING--
 
  Your game can be saved so that you can continue to play later. Your saved game
  contains information such as your name, location, inventory, and other
