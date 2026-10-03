@@ -1,0 +1,60 @@
+              __MUFU__ 
+
+          --INSTRUCTIONS--
+
+_MAIN COMMANDS FOR GAME_
+
+look - Look around your current location.
+
+move - Move to another location.
+
+collect - Collect an item that is available in your current location.
+
+item - Inspect an item in your inventory.
+
+give - Give an item to 'IT' when you are at the temple.
+
+list - Check your bucket list.
+
+pray - Pray to IT when you are ready to finish the game.
+
+lopeta - Quit the game.
+
+--OBSERVATION--
+ when you type the command -look- it will give you the information about your surroundings
+ and also inform you of any items that you can collect using command -collect-.
+ There is a location where you will need another item to advance through the game,
+ you will get a clue about it if you -look- around.
+
+
+--MOVEMENT--
+ You will start off inside the cabin.
+ When you are outside the cabin, you can choose a direction: 
+ - north
+ - west
+ - east 
+ - cabin 
+ - south
+ 
+   if you are in the cabin either in the beginning or at another point of the game,
+   the Menu command - move will first change your location to the outside, only then
+   will you be able to choose the other directions.
+
+   if you are either in north, south, east or west and want to go somewhere else
+   then when you type the command move, it will only give an option of -back-
+   which beings the player to the outside.
+
+
+--INVENTORY--
+ 
+ Collected items are stored in your bag. Some items may be useful to advance
+    in the game, so think carefully before giving an item to 'IT'.
+
+--SAVING--
+
+ Your game can be saved so that you can continue to play later. Your saved game
+ contains information such as your name, location, inventory, and other
+ relevant game information.
+
+ When you start the game again, you can choose to continue a saved game
+ or start a new game.
