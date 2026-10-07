@@ -48,12 +48,10 @@ ichor = Item(
 candle = Item(
    "candle",
    "- It is a stange candle, spiraling like a snake. Creepy...")
-mufu = Item(
-   "MUFU",
-   "- A small doll of MUFU, your only companion who is here no more...")
 
 rooms = {r.name: r for r in [cabin, outside, north, west, east, south]}
-items = {i.name.lower(): i for i in [book, fish, trinket, ichor, candle, mufu]}
+items = {i.name.lower(): i for i in [book, fish, trinket, ichor, candle]}
+
 
 cabin.item = book
 outside.item = fish
@@ -109,9 +107,7 @@ else:
         if command == "lopeta":
             print("until next time.")
             break
-
 # Commands to execute and perform actions, some require the player to go through locations twice.
-
         elif command == "look":
             print(f"You are in the {player.location.name}.")
             if player.location == cabin:
@@ -123,8 +119,6 @@ else:
                  print(f"{name} - 'this fur ball ate too much fish yesterday...'")
                  print(f"{name} - 'well i suppose i kinda went over my limit as well'")
                 else:
-                 if cabin.item is None and mufu not in player.inventory and mufu not in stuff:
-                    cabin.item = mufu
                  print("This room has changed, its different.")
                  print("You don't want to stay here anymore.")   
 
@@ -445,10 +439,22 @@ else:
                      "\n [IT] - and what a beautiful dream you had achieved."
                      "\n [IT] - It was truly a wonderful tale...")
              elif {"book", "trinket"} <= offer:
-               print(f"")
-             elif offer == {"book"}:
-               print("a quitet one")
-             elif "mufu" in offer:
+               print(f"IT looks at you"
+                     "\n you are pulled away by ribbons of crimson red."
+                     "\n"
+                     "\n   you wake up as a red fish"
+                     "\n You are with your sibilings, numbering in the thousands,"
+                     "\n You don't have a sense of time but your instincts tell you to rush through the river."
+                     "\n - You swim as fast as you can, rushing through the waters and take a leap though the air."
+                     "\n   However instead of landing back in water, you are grabbed by an Giant red bird."
+                     "\n"
+                     "\n"
+                     "\nIT - hmm...."
+                     "\n   IT bursts out in laughter"
+                     "\nIT - oh what is this tale? its so short yet why is it so amusing?"
+                     "\n   IT seems to happier than ever seeing your misery"
+                     "\nIT - well, may luck be by your side next time.")
+             elif "book" in offer:
                print("'IT' tilts its head - 'Shall we gamble for the truth?'")
                if coin_flip():
                   print(f"IT - You win..."
@@ -478,7 +484,8 @@ else:
                         "\n However after it is written, it closes, and cannot be opened. Not by you at least.")   
              else:
                print("IT does not respond."
-                     "\nThe white plain remains completely silent.")
+                     "\nThe white plain remains completely silent."
+                     "Your car puts its paws on your head, time reverts back as you start over with no memory.")
              print("\n___THE END___")
              break                     
         else:

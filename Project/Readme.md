@@ -30,3 +30,36 @@ choice based game
 
 ** !!! there is a SECRET ENDING ( not added yet )***
 
+# Structure:
+
+** The project is split into different files. **
+├–– main.py            # the game loop.
+├–– player.py          # Player class.
+├–– room.py            # Room class.
+├–– items.py           # Item class.
+├–– save.py            # save_game, load_game, delete_save.
+├–– coin_flip.py       # coin_flip()
+├–– intro.txt          # printed at startup.
+├–– instructions.txt   # printed at startup and by the help command.
+└── saves              # save files as .txt
+
+# Routes and goals:
+** Any of these routs gives an ending: **
+route 1: The humble route.
+route 2: The Free spirit ending.
+route 3: The Footless bird ending.
+route 4: The Fools ending.
+route 5: The truth and lies ending.
+route 6: Return to 0 ending
+
+# player actions:
+look - observe surrounding
+move - move to another room
+collect - collect an item
+item - inspect an item
+list - check bucket list
+give - give away an item
+pray - perform the ritual
+help - shows the instruction.txt file again
+save - saves the game progress
+lopeta - QUIT GAME
