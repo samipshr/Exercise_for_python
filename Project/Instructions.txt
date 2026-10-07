@@ -46,11 +46,18 @@ lopeta - Quit the game.
    then when you type the command move, it will only give an option of -back-
    which beings the player to the outside.
 
+                 --GIVING & PRAY--
+ "book", "trinket", "fish", "strange fruit", "candle"
+ if the player doesn't give the items in this order, game ends.
+
 
                  --INVENTORY--
  
  Collected items are stored in your bag. Some items may be useful to advance
     in the game, so think carefully before giving an item to 'IT'.
+ There may also be multiple items in a room so be sure to 'Look' Carefully.
+Don't worry even if you don't collect every item, it will not change things much
+        after all you are just collecting your belongings to beigin with.
 
                   --SAVING--
 
