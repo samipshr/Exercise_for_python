@@ -8,7 +8,7 @@ def save_path(name):
     return save / f"{safe}.txt"
 
 def save_game(player, name, age, stuff, bucket_list, rooms):
-    save.mkdir(slot=True)
+    save.mkdir(exist_ok=True)
     saved = [
         f"age={age}",
         f"location={player.location.name}",

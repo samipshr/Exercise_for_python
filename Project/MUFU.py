@@ -485,7 +485,7 @@ else:
              else:
                print("IT does not respond."
                      "\nThe white plain remains completely silent."
-                     "Your car puts its paws on your head, time reverts back as you start over with no memory.")
+                     "Your cat puts its paws on your head, time reverts back as you start over with no memory.")
              print("\n___THE END___")
              break                     
         else:
